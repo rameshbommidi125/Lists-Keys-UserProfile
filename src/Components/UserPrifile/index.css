@@ -1,0 +1,29 @@
+.avatar {
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.user-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5px;
+
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+.user-details-container {
+  display: flex;
+  flex-direction: column;
+}
+.user-name {
+  align-self: center;
+  font-size: 22px;
+}
+.user-designation {
+  align-self: center;
+  font-size: 12px;
+}
